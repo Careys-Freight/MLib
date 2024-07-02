@@ -1,12 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFrameworks>netcoreapp3.0;net4.5.2</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows</TargetFrameworks>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Settings\SettingsModel\SettingsModel.csproj" />
     <ProjectReference Include="..\Settings\Settings\Settings.csproj" />
   </ItemGroup>
-
 </Project>

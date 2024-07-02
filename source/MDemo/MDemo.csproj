@@ -1,11 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFrameworks>netcoreapp3.0;net4.5.2</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
   <ItemGroup>
     <None Remove="Resources\Icons\dark\appbar.camera.flash.png" />
     <None Remove="Resources\Icons\dark\appbar.check.png" />
@@ -24,7 +22,6 @@
     <None Remove="Resources\logo\pdfbinder_logo_32.png" />
     <None Remove="Resources\logo\pdfbinder_logo_64.png" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="Resources\Icons\design\appbar.camera.flash.svg" />
     <Content Include="Resources\Icons\design\appbar.check.svg" />
@@ -32,14 +29,12 @@
     <Content Include="Resources\Icons\design\appbar.question.svg" />
     <Content Include="Resources\logo\pdfbinder_light.svg" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="Dirkster.InplaceEditBoxLib" Version="1.4.0" />
-    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
-    <PackageReference Include="Dirkster.WatermarkControlsLib" Version="1.1.0" />
+    <PackageReference Include="Careys.InplaceEditBoxLib" Version="1.4.0" />
+    <PackageReference Include="Careys.UserNotifications" Version="1.5.1" />
+    <PackageReference Include="Careys.WatermarkControlsLib" Version="1.1.0" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.19" />
   </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\Components\BindToMLib\BindToMLib.csproj" />
     <ProjectReference Include="..\Components\MLib\MLib.csproj" />
@@ -50,7 +45,6 @@
     <ProjectReference Include="..\More_Components\Settings\SettingsModel\SettingsModel.csproj" />
     <ProjectReference Include="..\More_Components\Settings\Settings\Settings.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Resource Include="Resources\Icons\dark\appbar.camera.flash.png" />
     <Resource Include="Resources\Icons\dark\appbar.check.png" />
@@ -64,14 +58,12 @@
     <Resource Include="Resources\logo\pdfbinder_logo_32.png" />
     <Resource Include="Resources\logo\pdfbinder_logo_64.png" />
   </ItemGroup>
-
   <ItemGroup>
     <ApplicationDefinition Update="App.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="App.xaml.cs">
       <SubType>Code</SubType>
@@ -100,7 +92,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <Page Update="Demos\Views\CustomDialogView.xaml">
       <SubType>Designer</SubType>
@@ -134,5 +125,4 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-
 </Project>

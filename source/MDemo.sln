@@ -26,17 +26,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Settings", "More_Components
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SettingsModel", "More_Components\Settings\SettingsModel\SettingsModel.csproj", "{CCF70A3F-6FD7-4F8B-9D06-E942794CDD4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doc", "PDF Binder\Components\Doc\Doc.csproj", "{E4AA9A89-EFA8-40A1-9FA7-5B4A03E473D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Doc", "PDF Binder\Components\Doc\Doc.csproj", "{E4AA9A89-EFA8-40A1-9FA7-5B4A03E473D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplorerLib", "PDF Binder\Components\ExplorerLib\ExplorerLib.csproj", "{C1D141F7-4962-45F3-9EDA-A7900DEED1C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplorerLib", "PDF Binder\Components\ExplorerLib\ExplorerLib.csproj", "{C1D141F7-4962-45F3-9EDA-A7900DEED1C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFBinderLib", "PDF Binder\PDFBinderLib\PDFBinderLib.csproj", "{35D0CA7F-FC07-4515-82F2-7DDC14B8437B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDFBinderLib", "PDF Binder\PDFBinderLib\PDFBinderLib.csproj", "{35D0CA7F-FC07-4515-82F2-7DDC14B8437B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF Binder", "PDF Binder\PDF Binder\PDF Binder.csproj", "{4BB0C891-C854-4737-9079-9EE11C9D7376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PDF Binder", "PDF Binder\PDF Binder\PDF Binder.csproj", "{4BB0C891-C854-4737-9079-9EE11C9D7376}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceLocator", "More_Components\ServiceLocator\ServiceLocator.csproj", "{3C9E025C-7C07-4349-BD19-3DC7E6418538}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MDemo", "MDemo\MDemo.csproj", "{832C71B0-D1F5-4038-9D88-B8C788EA8EAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MDemo", "MDemo\MDemo.csproj", "{832C71B0-D1F5-4038-9D88-B8C788EA8EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -190,7 +190,7 @@
         public void CheckSettingsOnLoad(double SystemParameters_VirtualScreenLeft,
                                         double SystemParameters_VirtualScreenTop)
         {
-            //// Dirkster: Not sure whether this is working correctly yet...
+            //// Careys: Not sure whether this is working correctly yet...
             //// this.SessionData.CheckSettingsOnLoad(SystemParameters_VirtualScreenLeft,
             ////                                      SystemParameters_VirtualScreenTop);
         }

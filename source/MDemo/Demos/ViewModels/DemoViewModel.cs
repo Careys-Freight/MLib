@@ -789,7 +789,7 @@
                               "WPF MessageBox with Hyperlink",
                               MsgBoxButtons.YesNo, MsgBoxImage.Question, MsgBoxResult.Yes,
                               "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7799028",
-                              "Code Project Articles by Dirkster99");
+                              "Code Project Articles by Careys-Freight");
                     break;
 
                 case "Sample 8":
@@ -797,7 +797,7 @@
                               "WPF MessageBox with Custom Hyperlink Navigation",
                               MsgBoxButtons.YesNo, MsgBoxImage.Question, MsgBoxResult.Yes,
                               "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7799028",
-                              "Code Project Articles by Dirkster99", "Help Topic:", this.MyCustomHyperlinkNaviMethod);
+                              "Code Project Articles by Careys-Freight", "Help Topic:", this.MyCustomHyperlinkNaviMethod);
                     break;
 
                 case "Sample 9":
@@ -955,7 +955,7 @@
                               "WPF MessageBox with Hyperlink",
                               MsgBoxButtons.YesNo, MsgBoxImage.Question, MsgBoxResult.Yes,
                               "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7799028",
-                              "Code Project Articles by Dirkster99");
+                              "Code Project Articles by Careys-Freight");
                     break;
 
                 case "Sample 8":
@@ -963,7 +963,7 @@
                               "WPF MessageBox with Custom Hyperlink Navigation",
                               MsgBoxButtons.YesNo, MsgBoxImage.Question, MsgBoxResult.Yes,
                               "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=7799028",
-                              "Code Project Articles by Dirkster99", "Help Topic:", this.MyCustomHyperlinkNaviMethod);
+                              "Code Project Articles by Careys-Freight", "Help Topic:", this.MyCustomHyperlinkNaviMethod);
                     break;
 
                 case "Sample 9":
